@@ -1,0 +1,16 @@
+/* Media Queries */
+@media(min-width: 450px){
+    .navbar-collapse{
+        width: 320px;
+    }
+    .btn-group .btn{
+        width: auto;
+    }
+    .btn-group .btn:first-child{
+        margin-right: 48px;
+        margin-bottom: 0;
+    }
+    .border-line{
+        width: 405px;
+    }
+}

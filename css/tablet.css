@@ -1,0 +1,34 @@
+@media(min-width: 768px){
+    .header-inner-left h1{
+        font-size: 5.7rem;
+    }
+
+    .services-inner, .doc-panel-inner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .doc-panel-inner{
+        -webkit-column-gap: 3rem;
+           -moz-column-gap: 3rem;
+                column-gap: 3rem;
+    }
+    .doc-panel .section-head h2{
+        text-align: left;
+    }
+    .package-service-inner, .posts-inner, .footer-inner{
+        grid-template-columns: repeat(2, 1fr);
+        -webkit-column-gap: 6rem;
+           -moz-column-gap: 6rem;
+                column-gap: 6rem;
+    }
+    .footer-inner{
+        text-align: left;
+    }
+    .footer-item .icon, .footer-item .text{
+        margin-left: 0;
+    }
+    .footer-item .tags-list{
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}
